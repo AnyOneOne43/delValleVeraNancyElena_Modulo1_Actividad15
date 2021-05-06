@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="Galeria.php" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend><h1>Registro de Nueva Obra</h1></legend>
+        Nombre de la Obra:<input type="text" name="Obra" required>
+        <br>
+        Nombre del Autor:<input type="text" name="Autor">
+        <br>
+        Año de publicación:<input type="number" name="Año" min="1000">
+        <br>
+        Subir Archivo:<input type="file" name="Imagen" required>
+        <br>
+        <input type="submit" value="Subir Obra">
+      </fieldset>
+      
+    </form>
+  </body>
+</html>
